@@ -1,0 +1,62 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #0b010b;
+    background-color: rgb(246 244 242 / 88%);
+}
+header {
+    background-color: rgb(19 14 60);
+    padding: 32px 21px;
+}
+header h1 {
+    color: #ffffff;
+    font-size: 2rem;
+}
+nav a {
+    color: #ab8cff;
+    margin-right: 12px;
+}
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 24px;
+}
+section {
+    margin-bottom: 32px;
+}
+.card {
+    padding: 16px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border-left: 4px solid #c1b3c1;
+}
+.card--business {
+    border-left-color: #152571;
+}
+.card--selfdevelopment {
+    border-left-color: #a22fbf;
+}
+.card--it {
+    border-left-color: #1aa626;
+}
+.card--sport {
+    border-left-color: #da6d2f;
+}
+.card img {
+    width: 100%;
+}
+aside {
+    background-color: #eae8ef;
+    border: 1px solid #cf1414;
+    padding: 16px;
+}
+footer {
+    font-size: 0.85rem;
+    padding: 32px 21px;
+    color: #4c4545;
+}
